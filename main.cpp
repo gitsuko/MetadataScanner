@@ -33,8 +33,7 @@ int main() {
                 if (file_size >= 1024 * 1024 * 1024) { // GB
                     double size_gb = static_cast<double>(file_size) / (1024 *1024 * 1024);
                     std::cout << "Size: " << std::fixed << std::setprecision(3) << size_gb << " GB\n";
-                }
-                if (file_size >= 1024 * 1024) { // MB
+                } else if (file_size >= 1024 * 1024) { // MB
                     double size_mb = static_cast<double>(file_size) / (1024 * 1024);
                     std::cout << "Size: " << std::fixed << std::setprecision(3) << size_mb << " MB\n";
                 } else if (file_size >= 1024) { // KB
