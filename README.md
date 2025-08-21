@@ -6,8 +6,8 @@ A simple **metadata scanner** written in C++ with both **CLI** and **Qt GUI**.
 ### CLI version
 Compile and run:
 ```bash
-g++ main.cpp -o main
-./main
+g++ scanner_cli.cpp -o scanner_cli
+./scanner_cli
 ```
 
 ### Qt GUI version
