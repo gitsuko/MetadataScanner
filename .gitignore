@@ -1,1 +1,16 @@
 main
+
+# Qt Creator
+*.user
+*.user.* 
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# Build folders
+build*/
+cmake-build-*/
+
+# OS files
+.DS_Store
+Thumbs.db
