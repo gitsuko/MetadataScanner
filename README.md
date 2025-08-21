@@ -19,7 +19,7 @@ make
 ```
 
 ## Future Plans
-- [*] Add Qt GUI for cross-platform desktop usage.
+- [x] Add Qt GUI for cross-platform desktop usage.
 - [ ] Provide binary installers (.deb, .exe, .dmg).
 - [ ] Add a website for online usage.
 - [ ] Add metadata removal.
